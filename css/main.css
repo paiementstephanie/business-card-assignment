@@ -12,6 +12,24 @@ html {
 	box-sizing: inherit;
 }
 
+
+
 img{
 	width:100%;
+	border-radius: 50%;
+}
+
+h1{
+	color: white;
+	background-color: #ec5a6b;
+}
+
+h2{
+	text-align:center;
+	background-color: #ec5a6b;
+}
+
+
+body{
+	margin:0em;
 }
