@@ -22,11 +22,18 @@ img{
 h1{
 	color: white;
 	background-color: #ec5a6b;
+	margin-right: 3em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left:0.5em;
 }
 
 h2{
 	text-align:center;
 	background-color: #ec5a6b;
+	color: white;
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
 }
 
 
