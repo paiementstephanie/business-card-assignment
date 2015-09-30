@@ -43,3 +43,8 @@ h2{
 body{
 	margin:0em;
 }
+
+.about{
+background-color: gray;
+color: white;
+}
