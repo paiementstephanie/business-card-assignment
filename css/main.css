@@ -17,6 +17,9 @@ html {
 img{
 	width:100%;
 	border-radius: 50%;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
 }
 
 h1{
