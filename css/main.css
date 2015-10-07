@@ -18,6 +18,7 @@ h1{
 	background-color: #ec5a6b;
 	margin-right: 5em;
 	margin-bottom: 0em;
+	margin-top: 0em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left:0.5em;
@@ -39,10 +40,21 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-.about{
-background-color: gray;
-color: white;
+
+.billboard-wrap{
+	position: relative;
 }
+
+.billboard{
+	position: absolute;
+	bottom:3em;
+	color: white;
+	text-align:center;
+	width:50%;
+	float: left;
+	clear: both;
+}
+
 
 .potrait{
 	width: 100%;
