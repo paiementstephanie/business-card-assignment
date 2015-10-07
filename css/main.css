@@ -44,9 +44,6 @@ body{
 	left: 50%;
 }
 
-.billboard p{
-
-}
 
 h2{
 	text-align:center;
@@ -69,6 +66,8 @@ h2{
 	padding-right: 1em;
 	padding-left: 1em;
 	padding-top: 1em;
+	padding-bottom: 2em;
+	padding-top:2em;
 }
 
 
