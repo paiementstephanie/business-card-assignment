@@ -40,7 +40,7 @@ body{
 	bottom:3em;
 	color: white;
 	text-align:center;
-	width: 90%;
+	width: 100%;
 }
 
 .billboard p{
@@ -73,6 +73,7 @@ h2{
 	padding-top: 1em;
 }
 
+
 img{
 	width:100%;
 }
@@ -81,6 +82,17 @@ img{
 	border-radius: 50%;
 }
 
+.paint, .photo, .ill, .design{
+	position: relative;
+}
+
+h3{
+	position: absolute;
+	bottom:3em;
+	color: white;
+	text-align:center;
+	width: 100%;
+}
 
 
 @media only screen and (min-width: 40em){
