@@ -12,15 +12,6 @@ html {
 	box-sizing: inherit;
 }
 
-font-family: 'Raleway', sans-serif;
-
-img{
-	width:100%;
-	border-radius: 50%;
-	padding-right: 1em;
-	padding-left: 1em;
-	padding-top: 1em;
-}
 
 h1{
 	color: white;
@@ -29,6 +20,7 @@ h1{
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left:0.5em;
+	font-family: 'Raleway', sans-serif;
 }
 
 h2{
@@ -37,14 +29,36 @@ h2{
 	color: white;
 	padding-top:0.5em;
 	padding-bottom: 0.5em;
+	font-family: 'Raleway', sans-serif;
 }
 
 
 body{
 	margin:0em;
+	font-family: 'Raleway', sans-serif;
 }
 
 .about{
 background-color: gray;
 color: white;
+}
+
+.potrait{
+	width: 100%;
+	border-radius: 50%;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
+}
+
+
+.p-1, .p-2, .p-3, .p-4{
+	width:100%;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
+}
+
+img{
+	width:100%;
 }
