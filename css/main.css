@@ -16,21 +16,11 @@ html {
 h1{
 	color: white;
 	background-color: #ec5a6b;
-	margin-right: 5em;
 	margin-bottom: 0em;
 	margin-top: 0em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left:0.5em;
-	font-family: 'Raleway', sans-serif;
-}
-
-h2{
-	text-align:center;
-	background-color: #ec5a6b;
-	color: white;
-	padding-top:0.5em;
-	padding-bottom: 0.5em;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -50,11 +40,22 @@ body{
 	bottom:3em;
 	color: white;
 	text-align:center;
-	width:50%;
-	float: left;
-	clear: both;
+	width: 90%;
 }
 
+.billboard p{
+	float: right;
+}
+
+.contact, .portfolio{
+	text-align:center;
+	background-color: #ec5a6b;
+	color: white;
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
+	font-family: 'Raleway', sans-serif;
+	margin: 0em;
+}
 
 .potrait{
 	width: 100%;
@@ -74,4 +75,8 @@ body{
 
 img{
 	width:100%;
+}
+
+.paint img, .ill img, .design img, .photo img{
+	border-radius: 50%;
 }
