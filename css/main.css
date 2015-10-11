@@ -77,6 +77,19 @@ h2{
 	padding-top:2em;
 }
 
+.unit{
+	width: 400px;
+	margin:0 auto;
+}
+
+.hover-box{
+	display: block;
+}
+
+.hover-box img{
+	display: block;
+	width: 100%;
+}
 
 img{
 	width:100%;
@@ -109,6 +122,12 @@ h3{
 	padding-right: 1em;
 	padding-bottom: 1em;
 }
+
+
+
+
+
+
 
 @media only screen and (min-width: 40em){
 
