@@ -6,6 +6,13 @@
 
 html {
 	box-sizing: border-box;
+	moz-text-size-adjust:100%;
+	ms-text-size-adjust:100%;
+	webkit-text-size-adjust: 100%;
+
+	font-size: 100%;
+	font-family: Raleway, sans-serif;
+	line-height:1.3;
 }
 
 *, *::before, *::after {
@@ -115,4 +122,30 @@ h3{
 		float: left;
 	}
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print{
+
+
+main a::after {
+	content: " (" attr(href) ")" ;
+	text-decoration: none;
+	color: gray;
 }
