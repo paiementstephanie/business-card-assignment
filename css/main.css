@@ -84,12 +84,22 @@ h2{
 
 .hover-box{
 	display: block;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0 0 4px 10px;
 }
 
 .hover-box img{
 	display: block;
 	width: 100%;
 }
+
+.hover-box h2{
+	position: absolute;
+}
+
+
 
 img{
 	width:100%;
