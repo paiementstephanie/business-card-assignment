@@ -59,7 +59,10 @@ h2{
 	padding-top:0.5em;
 	padding-bottom: 0.5em;
 	font-family: 'Raleway', sans-serif;
-	margin: 0em;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 0em;
+	margin-bottom: 2em;
 }
 
 h3{
