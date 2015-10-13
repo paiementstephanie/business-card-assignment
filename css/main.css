@@ -180,6 +180,12 @@ img{
 		margin-bottom: 1em;
 	}
 
+	.icons{
+		position: relative;
+		clear: both;
+		bottom: 3em;
+	}
+
 }
 
 
