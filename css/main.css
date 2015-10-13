@@ -192,33 +192,43 @@ img{
 @media print{
 
 
-main a::after {
-	content: " (" attr(href) ")" ;
-	text-decoration: none;
-	color: gray;
-}
+	main a::after {
+		content: " (" attr(href) ")" ;
+		text-decoration: none;
+		color: gray;
+	}
 
-nav{
-	display:none;
-}
+	nav{
+		display:none;
+	}
 
-.btn{
-	display:none;
-}
-
-
-.portrait{
-	max-width: 80%;
-}
-
-	.box-port{
-		width: 50%;
-		float: left;
-		max-width: 50%;
+	.btn{
+		display:none;
 	}
 
 
+	.portrait{
+		max-width: 50%;
+		margin: 0em;
+	}
 
+	.billboard{
+		color: black;
+		font-size: 120%;
+	}
+
+		.box-port{
+			width: 50%;
+			float: left;
+			}
+
+	.arrows{
+		display: none;
+	}
+
+	.icons a {
+		display: none;
+	}
 
 
 
