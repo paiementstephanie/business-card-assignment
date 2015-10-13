@@ -241,18 +241,13 @@ img{
 	padding: 1em;
 }
 
-	.portrait{
-		max-width: 50%;
-		margin: 0em;
-		position: absolute;
-	}
+.portrait{
+	max-width: 50%;
+	margin: 0em;
+	position: absolute;
+	bottom: -70px;
+}
 
-	.intro-p{
-		position: relative;
-		width: 25%;
-		float: left;
-		padding-top: 16em;
-	}
 
 	.billboard{
 		color: black;
@@ -273,9 +268,22 @@ img{
 
 h1{
 	margin: 0;
-	padding-left: 7em;
+	left: 160px;
 	font-size: 75%;
-	position: absolute;
+	position: relative;
+}
+
+.intro-p {
+		position: relative;
+		top: 60px;
+		left: 5px;
+		margin: 0;
+		padding-left: 1em;
+		font-size: 100%;
+	}
+
+.email{
+	text-align: center;
 }
 
 h2, h3{
@@ -285,5 +293,6 @@ h2, h3{
 .unit{
 	display: none;
 }
+
 
 }
