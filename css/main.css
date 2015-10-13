@@ -222,9 +222,9 @@ img{
 	}
 
 	.icons{
-		max-width: 30%;
-		clear: both;
+		max-width: 40%;
 		bottom: 3em;
+		left: 0.02em;
 		position: relative;
 	}
 
