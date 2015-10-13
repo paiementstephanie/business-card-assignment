@@ -72,6 +72,7 @@ h3{
 	text-align:center;
 	width: 100%;
 	padding-bottom: 4em;
+	text-shadow: 2px 2px 6px black;
 	}
 
 .contact{
@@ -82,10 +83,6 @@ h3{
 	width: 100%;
 	display:block;
 }
-
-
-
-
 
 .unit{
 	margin:0 auto;
@@ -138,8 +135,6 @@ h3{
 	display: block;
 	width: 100%;
 }
-
-
 
 .contact{
 	clear:both;
