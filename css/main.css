@@ -87,6 +87,7 @@ h3{
 .unit{
 	margin:0 auto;
 	position: relative;
+	padding:1em;
 }
 
 .unit img{
@@ -98,7 +99,7 @@ h3{
 	border-radius: 50%;
 	overflow: hidden;
 	position: relative;
-	box-shadow: 0 0 4px 10px #9d9391;
+	box-shadow: -1px 0 4px 10px #9d9391;
 }
 
 .hover-box img{
@@ -106,28 +107,36 @@ h3{
 	width: 100%;
 }
 
-.hover-box h2{
+.hover-box h3{
 	position: absolute;
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	background-color: rgba(192,191,202)0.5;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+
 	border-radius: 50%;
 	margin: 0em;
 	color: white;
 	text-align: center;
-	transform: scale(1);
+	transition:all 200ms linear;
 }
 
-.hover-box:hover h2{
-	transform: scale(0);
+.hover-box:hover h3{
+	background-color: rgba(192,191,202, 0.5);
 }
 
 .hover-box span{
 	position: absolute;
 	top: 50%;
-	left:50%;
-	transform: translate(-50%, -50%);
+	left:0%;
+	width:100%;
+	text-align:center;
+	transform: scale(1) translateY(-50%);
+	transition:all 200ms linear;
+}
+
+.hover-box:hover span{
+	transform: scale(0) translateY(-50%);
 }
 
 .box-port{
@@ -140,18 +149,16 @@ h3{
 	clear:both;
 }
 
-.twitter, .facebook{
-	width: 15%;
-	float: right;
+.icons{
 	padding-right: 1em;
 	padding-bottom: 1em;
+	text-align:center;
 }
 
 .email{
-	width: 50%;
 	color: gray;
-	float:left;
 	padding-left: 10px;
+	text-align:center;
 }
 
 
@@ -176,13 +183,14 @@ h3{
 	}
 
 	.icons{
-		position: relative;
-		clear: both;
-		bottom: 3em;
+		float:right;
+		width:40%;
 	}
 
 .email{
-	padding-top: 40px;
+	padding-top: 1em;
+	float:left;
+	width: 50%;
 }
 
 }
@@ -217,14 +225,10 @@ h3{
 
 	.email{
 		margin-left: 1em;
-		text-align:center;
 	}
 
 	.icons{
-		max-width: 40%;
-		bottom: 3em;
-		left: 0.02em;
-		position: relative;
+
 	}
 
 
@@ -295,6 +299,7 @@ h1{
 	left: 160px;
 	font-size: 75%;
 	position: relative;
+	background-color: transparent;
 }
 
 .intro-p {
