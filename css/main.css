@@ -275,7 +275,7 @@ h1{
 
 .intro-p {
 		position: relative;
-		top: 60px;
+		top: 45px;
 		left: 5px;
 		margin: 0;
 		padding-left: 1em;
@@ -283,7 +283,10 @@ h1{
 	}
 
 .email{
-	text-align: center;
+	text-align: left;
+	position: relative;
+	top: 5em;
+	font-size: 100%;
 }
 
 h2, h3{
