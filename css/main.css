@@ -140,9 +140,6 @@ img{
 	width:100%;
 }
 
-.paint img, .ill img, .design img, .photo img{
-	border-radius: 50%;
-}
 
 .paint, .photo, .ill, .design{
 	position: relative;
