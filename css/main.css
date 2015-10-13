@@ -197,3 +197,28 @@ main a::after {
 	text-decoration: none;
 	color: gray;
 }
+
+nav{
+	display:none;
+}
+
+.btn{
+	display:none;
+}
+
+.billboard{
+	display:none;
+}
+
+.portrait{
+	max-width: 50%;
+}
+
+
+
+
+
+
+
+
+}
