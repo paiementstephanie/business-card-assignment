@@ -79,11 +79,6 @@ padding-bottom: 4em;
 
 .p-1, .p-2, .p-3, .p-4{
 	width:100%;
-	padding-right: 1em;
-	padding-left: 1em;
-	padding-top: 1em;
-	padding-bottom: 2em;
-	padding-top:2em;
 }
 
 .unit{
@@ -226,6 +221,13 @@ img{
 	.icons a {
 		display: none;
 	}
+
+h1{
+	margin: 0;
+	padding-left: 7em;
+	font-size: 75%;
+	position: absolute;
+}
 
 h2, h3{
 	display: none;
