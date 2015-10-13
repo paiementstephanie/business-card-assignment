@@ -89,9 +89,14 @@ padding-bottom: 4em;
 	padding: 1em 1em 1em 1em;
 }
 
+
 .unit{
 	width: 400px;
 	margin:0 auto;
+}
+
+.unit img{
+	border-radius:50%;
 }
 
 .hover-box{
@@ -173,13 +178,14 @@ img{
 		float: left;
 	}
 
+
 }
 
 
 
-@media only screen and (min-width: 75em){
+@media only screen and (min-width: 65em){
 	html{
-		font-size: 140%;
+		font-size: 135%;
 		line-height: 1.6;
 	}
 
@@ -188,6 +194,21 @@ img{
 		float: left;
 		display: inline-block;
 	}
+
+	.portrait{
+		max-width: 50%;
+	}
+
+	.intro-p{
+		color: gray;
+		margin-top: 2em;
+	}
+
+	.icons{
+		max-width: 25%;
+		clear: both;
+	}
+
 
 
 }
@@ -226,6 +247,14 @@ img{
 	.portrait{
 		max-width: 50%;
 		margin: 0em;
+		position: absolute;
+	}
+
+	.intro-p{
+		position: relative;
+		width: 25%;
+		float: left;
+		padding-top: 16em;
 	}
 
 	.billboard{
