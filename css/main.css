@@ -44,7 +44,7 @@ body{
 
 .billboard{
 	position: absolute;
-	bottom:50%;
+	bottom:30%;
 	color: white;
 	text-align:center;
 	width: 50%;
@@ -66,13 +66,13 @@ h2{
 }
 
 h3{
-position: absolute;
-bottom:5em;
-color: white;
-text-align:center;
-width: 100%;
-padding-bottom: 4em;
-}
+	position: absolute;
+	bottom:5em;
+	color: white;
+	text-align:center;
+	width: 100%;
+	padding-bottom: 4em;
+	}
 
 .contact{
 	margin-top: 2em;
@@ -93,6 +93,7 @@ padding-bottom: 4em;
 .unit{
 	width: 400px;
 	margin:0 auto;
+	position: relative;
 }
 
 .unit img{
@@ -141,22 +142,21 @@ img{
 }
 
 
-.paint, .photo, .ill, .design{
-	position: relative;
-}
-
-
 .contact{
 	clear:both;
 }
 
 .twitter, .facebook{
-	width: 20%;
+	width: 15%;
 	float: right;
 	padding-right: 1em;
 	padding-bottom: 1em;
+	top: 15px;
 }
 
+.email{
+	margin-left: 1em;
+}
 
 
 
@@ -173,8 +173,12 @@ img{
 	.box-port{
 		width: 50%;
 		float: left;
+		margin-bottom: 2em;
 	}
 
+	h2{
+		margin-bottom: 1em;
+	}
 
 }
 
@@ -186,10 +190,15 @@ img{
 		line-height: 1.6;
 	}
 
+	h2{
+		margin-bottom: 1em;
+	}
+
 	.box-port{
 		width: 25%;
 		float: left;
 		display: inline-block;
+		margin-bottom: 2em;
 	}
 
 	.portrait{
@@ -203,11 +212,14 @@ img{
 
 	.email{
 		margin-left: 1em;
+		text-align:center;
 	}
 
 	.icons{
-		max-width: 25%;
+		max-width: 30%;
 		clear: both;
+		bottom: 3em;
+		position: relative;
 	}
 
 
