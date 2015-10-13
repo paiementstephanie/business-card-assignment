@@ -156,12 +156,14 @@ h3{
 }
 
 .email{
-	color: gray;
 	padding-left: 10px;
 	text-align: center;
-	text-decoration: none;
 }
 
+.email a{
+	text-decoration:none;
+	color: gray;
+}
 
 
 
