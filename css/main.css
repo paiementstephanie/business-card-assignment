@@ -158,7 +158,8 @@ h3{
 .email{
 	color: gray;
 	padding-left: 10px;
-	text-align:center;
+	text-align: center;
+	text-decoration: none;
 }
 
 
@@ -188,7 +189,6 @@ h3{
 	}
 
 .email{
-	padding-top: 1em;
 	float:left;
 	width: 50%;
 }
@@ -225,11 +225,9 @@ h3{
 
 	.email{
 		margin-left: 1em;
+		margin-top:0em;
 	}
 
-	.icons{
-
-	}
 
 
 }
