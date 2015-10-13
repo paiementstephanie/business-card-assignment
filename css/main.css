@@ -198,9 +198,11 @@ img{
 		color: gray;
 	}
 
-	nav{
-		display:none;
-	}
+.business-card {
+	width: 336px;
+	height: 192px;
+	border: .10em dashed #000;
+	padding: 1em;
 
 	.btn{
 		display:none;
@@ -217,10 +219,9 @@ img{
 		font-size: 120%;
 	}
 
-		.box-port{
-			width: 50%;
-			float: left;
-			}
+	.box-port{
+		display: none;
+	}
 
 	.arrows{
 		display: none;
